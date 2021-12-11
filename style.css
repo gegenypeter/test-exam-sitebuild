@@ -186,7 +186,9 @@ label {
   grid-column: 2 / 7;
   -ms-grid-row: 4;
   grid-row: 4;
-  height: 40px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 u {
